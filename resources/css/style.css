@@ -1,0 +1,40 @@
+body {
+  background: #23272b;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#card {
+  width: 300px;
+  height: 500px;
+  background: #535659;
+  color: white;
+  text-align: center;
+}
+
+#value {
+  width: 100%;
+  font-size: 800%;
+}
+
+#values {
+  width: 100%;
+  height: 30px;
+  position: absolute; 
+  bottom:0;
+}
+
+#values a {
+  padding: 3px;
+}
